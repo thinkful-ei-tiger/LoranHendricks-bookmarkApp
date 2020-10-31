@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+header{
+  color: #2894ff;
+}
+
+h1 {
+  text-align: center;
+}
+
+.my-bookmarks{
+  border: #2894ff solid 2px;
+  margin: auto;
+  width: 100%;
+  background-color: #1f242d;
+  color: #2894ff;
+  display: block;
+  padding: 5px;
+  justify-content: space-between;
+}
+
+.bookmark {
+  border: #2894ff solid 2px;
+  border-radius: 5px;
+  margin: auto;
+  width: 100%;
+  background-color: #1f242d;
+  color: #2894ff;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.collapsed {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.expanded {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 10px 15px 10px 15px;
+}
+.description{
+ 
+  justify-content: space-between;
+  padding: 10px 15px 10px 15px;
+}
+.bookmark-title{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.new-bookmark-form {
+  display: inline;
+  justify-content: space-between;
+
+}
+
+.bookmark-controls {
+  display: inline;
+  justify-content: space-between;
+}
+
+.bookmark-list {
+  padding: 0;
+}
+
+.bookmark h3 {
+  margin-left: 20px;
+}
+
+.bookmark p {
+  margin-right: 20px;
+}
+
+input {
+  display: block;
+}
+i {
+  color: #2894ff;
+}
+
+.delete-button {
+  font-size: 20px;
+  font-family: sans serif;
+  background-color: slategray;
+  border-radius: 12px;
+  padding: 3px, 7px, 3px, 5px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.link-button {
+  font-size: 20px;
+  font-family: sans-serif;
+  background-color: slategray;
+  border-radius: 12px;
+  padding: 3px, 7px, 3px, 5px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  box-shadow: 0 1px 0 1px lightgray;
+}
+
+
+.form {
+  font-size: 20px;
+}
+
+input[type="radio"] {
+  font-size: 5px;
+}
+
+input,
+textarea {
+  font-size: 20px;
+  border: solid 2px darkgray;
+  border-radius: 12px;
+}
+
+#title,
+#url {
+  width: 100%;
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  font-family: sans-serif;
+  background-color: white;
+  box-shadow: 0 1px 0 1px lightgray;
+}
+
+.url-warning-container {
+  text-align: center;
+}
+
+.url-warning {
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.footer-space {
+  height: 25px;
+}
+
+
+
+
+
+@media all and (min-width: 800px) {
+  .my-bookmarks {
+    width: 30vw;
+  }
+}
