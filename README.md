@@ -1,42 +1,22 @@
-# LoranHendricks-bookmarkApp
+# Daniel Renfro Bookmark App
 
+[Live GitHub Pages](https://thinkful-ei-tiger.github.io/daniel-renfro-bookmark-app/) 
 
-User Stories
-As a user:
+## Technologies Used
+* HTML
+* JavaScript
+* CSS
+* jQuery
+* APIs
 
-I can add bookmarks to my bookmark list. Bookmarks contain: ✔️
-
-title ✔️
-url link ✔️
-description ✔️
-rating (1-5) ✔️
-I can see a list of my bookmarks when I first open the app ✔️
-
-All bookmarks in the list default to a "condensed" view showing only title and rating ✔️
-
-I can click on a bookmark to display the "detailed" view ✔️
-
-Detailed view expands to additionally display description and a "Visit Site" link ✔️
-
-I can remove bookmarks from my bookmark list ✔️
-
-I receive appropriate feedback when I cannot submit a bookmark ✔️
-
-I can select from a dropdown a "minimum rating" to filter the list by all bookmarks rated at or above the chosen selection ✔️
-
-(Extension feature - optional) I can edit the rating and description of a bookmark in my list ⬜
-
-Technical Requirements
-Use jQuery for AJAX and DOM manipulation ✔️
-Use namespacing to adhere to good architecture practices ✔️
-Minimal global variables ✔️
-Create modules in separate files to organize your code ✔️
-Logically group your functions ✔️
-Keep your Data out of the DOM ✔️
-No direct DOM manipulation in your event handlers ✔️
-Follow the React-ful design pattern - change your state, re-render your component ✔️
-Use semantic HTML ✔️
-Use responsive design ✔️
-Visually and functionally solid in viewports for mobile and desktop ✔️
-Follow a11y best practices ✔️
-(Extension) Follow AJAX and a11y best practices
+## User Stories Completed
+* User can view a list of their created bookmarks in a list view only displaying the bookmark Title and Rating.
+* User can add a new bookmark with the following options:
+  * Title
+  * URL
+  * Rating (1-5)
+  * Description
+* User can view an expanded view of a bookmark with all information.
+* User can click button to go to bookmark website.
+* User can delete bookmarks.
+* User can edit bookmarks.
