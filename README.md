@@ -1,6 +1,6 @@
-# Daniel Renfro Bookmark App
+# Loran Hendricks Bookmark App
 
-[Live GitHub Pages](https://thinkful-ei-tiger.github.io/daniel-renfro-bookmark-app/) 
+[Live GitHub Pages](https://thinkful-ei-tiger.github.io/LoranHendricks-bookmarkApp/) 
 
 ## Technologies Used
 * HTML
